@@ -1,0 +1,55 @@
+git init - Initialize .git directory
+
+ls - To view files/directories
+
+ls -a  To view hidden files/directories
+
+git config --global user.name "Manoj" (To configure username)
+
+git config --global user.email "manojlatchubugatha@gmail.com" (To configure email)
+
+git config --list (To view list of configurations)
+
+touch file1 (Add file)
+
+git status (To view status of files in workspace & staging/index)
+
+git add file (To add/commit changes happened from workspace to staging/index)
+
+git commit -m "label(some message)" file1 (It will move file from staging/index to local repo)
+
+git show ( it will display the cid status)
+
+git restore --staged <filename> (To unstage from staging/index to workspace)
+
+git reset --soft cid (To move form local repo to staging/index)
+
+git reset --mixed cid (To move form local repo to workspace)
+
+git push  (move files to central repository from local repo)
+
+git pull --rebase (To pull files from central repo to local repo (If any other collabaraor made any changes to file))
+
+
+BRANCH
+-----------
+-----------
+
+git branch <branch-name>
+
+git checkout <master/branch-name> (To switch from main master/branch to branch/master)
+
+git merge branch-name (To copy files in master to branch)
+
+git cherry-pick cid (To copy one commit from one branch to other branch)
+
+git branch -d branch-name (To delete a branch) 
+
+git push origin <branch-name> (To push branch to central repository)
+
+(or)
+
+git push path/of/c-repo branch-name
+
+
+
