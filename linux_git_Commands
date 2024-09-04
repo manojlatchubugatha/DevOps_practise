@@ -1,0 +1,52 @@
+------------ Linux Commands ------------------
+ 
+1) ls *command* (You can list files in a directory on the Linux command line by using the ls command.)
+ 
+2) mkdir <filename> *command* (A new directory in Linux can be created using the mkdir command)
+ 
+3) chmod command (You can change a file’s permissions in Linux using the chmod command)
+ 
+4) cat (The contents of a text file in the Linux terminal can be displayed by using the cat command followed by the file name. For example, cat file.txt will show the content of “file.txt”. )
+ 
+5) ll/ ls-l (It will display long list in directory), ls-a (To view hidden files & directories in that path)
+ 
+6) touch *command* (To create a new file)
+ 
+7) rm *command* (To remove a particular file)
+ 
+8) rm <file1><file2><file3> ( To remove multiple filenames)
+ 
+9) pwd (To check present working directory)
+ 
+10) ifconfig (To check the IP address)
+ 
+11) cal/cal 2024 (To display the calender/year)
+ 
+12) date (To view the data)
+ 
+13) uptime (To check the server uptime)
+ 
+14) whoami/who am i (To check whether which user is using server)
+ 
+15) cd .. (To back from one step back to directory)
+ 
+16) cd ../.. (To get back two step from directory)
+
+17) rmdir <directory> (To remove directory)
+ 
+18) rm -rf * (To remove all files in particular directory)
+ 
+19) sudo su (To change to root user)
+ 
+20) grep 'text' <filename> (You can search for a specific string within a file using the grep command in the Linux command line.)
+ 
+21) awk (command allows you to define actions based on patterns and perform arithmetic operations on text.)
+ 
+22) kill-<process ID> PID (To kill process along with the process ID (PID).)
+ 
+23) df (The disk space usage on a Linux system can be checked with the df command.)
+ 
+24) ps (ps command can be used to show running processes on a Linux system)
+ 
+25) sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+
