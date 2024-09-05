@@ -55,4 +55,4 @@
 27) uptime ----> shows the server up time.
 28) # means show the login as root user.
 29) $ shows the different user login to the server.
-
+30) git push origin <branch-name> (To push branch to central repository)
