@@ -50,3 +50,9 @@
  
 25) sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 
+-------------------------------------------------------------------------------------Update1 linux_Git Commands---------------------------------------------------
+26) who ----> to tell the how many useres connected to the server
+27) uptime ----> shows the server up time.
+28) # means show the login as root user.
+29) $ shows the different user login to the server.
+
