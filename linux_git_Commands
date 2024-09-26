@@ -56,3 +56,4 @@
 28) # means show the login as root user.
 29) $ shows the different user login to the server.
 30) git push origin <branch-name> (To push branch to central repository)
+31) git cherry-pick cid (To copy one commit from one branch to other branch)
